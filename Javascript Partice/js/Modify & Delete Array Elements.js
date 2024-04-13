@@ -1,0 +1,12 @@
+var a =["Waqar",32,"male","matrication"];
+document.write(a + "<br>");
+a[0]= "Hussain";
+document.write(a + "<br>");
+a[2]= "female";
+document.write(a + "<br>");
+delete a[1];
+document.write(a + "<br>");        
+a[3]="inter";
+document.write(a + "<br>");
+delete a[2];
+document.write(a + "<br>");
